@@ -10,9 +10,7 @@ public class BodyIndex {
 
         System.out.print("Please write your weight in kg : ");
         weight = input.nextDouble();
-
         bodyMassIndex = weight/(height * height);
-
         System.out.println("Your body mass index is : "+ bodyMassIndex);
         if(bodyMassIndex < 18.4){
             System.out.println("Skinny. It is recommended to gain weight with the help of a dietitian. ");
@@ -32,10 +30,6 @@ public class BodyIndex {
         else if (44.9 < bodyMassIndex ){
             System.out.println("Flab and third degree obese. It is recommended that to lose weight with the help of a dietitian and doctor.");
         }
-
-
-
-
 
     }
 }
